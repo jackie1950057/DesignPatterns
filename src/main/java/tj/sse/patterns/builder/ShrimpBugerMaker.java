@@ -45,6 +45,13 @@ public class ShrimpBugerMaker implements BugerMaker{
         this.burger.setSauce("Chilli Sauce");
     }
 
+    /**
+     * @class ShrimpBugerMaker
+     * @method makeBuger
+     * @description 做汉堡
+     * @param []
+     * @return tj.sse.patterns.builder.Buger
+     * */
     @Override
     public Buger makeBuger() {
         this.burger=new Buger();

@@ -46,6 +46,13 @@ public class ChickenBugerMaker implements BugerMaker
         this.burger.setSauce("Tomato Sauce");
     }
 
+    /**
+     * @class ChickenBugerMaker
+     * @method makeBuger
+     * @description 做汉堡
+     * @param []
+     * @return tj.sse.patterns.builder.Buger
+     * */
     @Override
     public Buger makeBuger() {
         this.burger=new Buger();
